@@ -1,0 +1,9 @@
+.root{
+	/*		 -fx-background-color: rgb(32,56,59);   */
+	/*-fx-background-image: url("/IMG/BORRADOR_GCS_2023.png");*/
+	-fx-background-image: url("/IMG/LOAD_GG.png");
+	-fx-background-color: #494C4D;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}

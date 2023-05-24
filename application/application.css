@@ -1,0 +1,96 @@
+.root{
+	/*		 -fx-background-color: rgb(32,56,59);   */
+	/*-fx-background-image: url("/IMG/BORRADOR_GCS_2023.png");*/
+	-fx-background-image: url("/IMG/hola3.png");
+	-fx-background-color: #494C4D;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+.button{
+	-fx-background-color: transparent;
+}
+/*
+ .mygridStyle Line {
+  -fx-stroke   : red ;
+} 
+  */
+ 
+
+
+
+
+/*
+ * .button{
+	-fx-background-color: #015A7C;
+	-fx-text-fill: white;
+	-fx-font-size: 25;
+	-fx-font-family: "OCR A Extended";
+	-fx-alignment: center;
+	-fx-background-radius: 50px;
+}
+
+.button:hover{
+	-fx-background-color: #4682B4;
+}
+
+.button:pressed{
+		-fx-background-color: #87CEFA;
+}
+  */
+
+combo-box{
+    -fx-font-family: "OCR A Extended";
+    -fx-background-color: White;
+  	-fx-text-fill: WHITE;
+  	-fx-text-stroke: WHITE;
+    -fx-font-size: 15;
+    -fx-background-radius: 50px;
+
+}
+
+
+.combo-box > .input-line {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0px;
+    -fx-translate-y: 0px;
+}
+combo-box > .input-focused-line {
+    -fx-background-color: transparent;
+    -fx-pref-height: 0px;
+}
+
+.axis{
+	-fx-tick-label-fill: rgba(175,214,222,0.7);
+	-fx-tick-label-stroke:rgba(175,214,222,0.7);
+}
+
+.chart{
+	-fx-stroke:rgba(2,10,42,0.4);
+	-fx-border-radius: 2px;
+	
+}
+
+.chart-content {
+    -fx-padding: 10px;
+}
+
+.chart-plot-background {
+    -fx-background-color: rgba(2,10,42,0.4);
+}
+/*cambiar color de los numeros */
+.chart-vertical-grid-lines {
+    -fx-stroke: rgba(109,20,227,0.5);
+}
+/*cambiar color de los numeros */
+.chart-horizontal-grid-lines {
+    -fx-stroke: rgba(2,10,42,0.4);
+}
+
+/* .chart-series-line{
+	-fx-stroke: rgb(24,191,211);
+}*/
+
+.default-color0.chart-series-line { -fx-stroke: rgb(24,191,211); }
+.default-color1.chart-series-line { -fx-stroke:rgb(0, 131, 254); }
+ .default-color2.chart-series-line { -fx-stroke:rgb(13, 60, 153 );}
